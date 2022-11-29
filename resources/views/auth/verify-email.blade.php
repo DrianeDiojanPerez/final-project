@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            <x-jet-authentication-card-logo />
+            <img src="{{URL::asset('/image/android-chrome-192x192.png')}}">   
         </x-slot>
 
         <div class="mb-4 text-sm text-gray-600">
