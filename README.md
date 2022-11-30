@@ -20,15 +20,15 @@
 `$ docker-compose up`
 #### step 6 
 
-`$ inside larvel.test-1 open the terminal inside docker
-composer install
-npm install
-npm run build
-php artisan storage:link`
+`$ inside larvel.test-1 open the terminal inside docker`
+`composer install`
+`npm install`
+`npm run build`
+`php artisan storage:link`
 
-#### step 6 
+#### step 7
 `docker-compose down`
-#### step 6 
+#### step 8 
 `./vendor/bin/sail up`
 
 ### End
