@@ -1,0 +1,6 @@
+./vendor/bin/sail up
+docker-compose up
+docker images
+docker ps -a
+#there is a slitly different version of docker called sail which just have a some
+#extra tools init to help us with our laravel application

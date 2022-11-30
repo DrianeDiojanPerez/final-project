@@ -7,6 +7,32 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+# Setup Installation
+####step 1 
+`$ sudo chmod -R 777 project-name`
+####step 2
+`$ create a .env file and paste your env variables`
+####step 3 
+`$ cd project-name`
+####step 4 
+`$ docker run --rm -v $(pwd):/app composer install`
+####step 5 
+`$ docker-compose up`
+####step 6 
+
+`$ inside larvel.test-1 open the terminal inside docker
+composer install
+npm install
+npm run build
+php artisan storage:link`
+
+####step 6 
+`docker-compose down`
+####step 6 
+`./vendor/bin/sail up`
+
+###End
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
