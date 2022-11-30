@@ -8,18 +8,17 @@
 </p>
 
 # Setup Installation
-#### step 1 
+#### step 1 - Once you clone the project make sure to give the proper permissions
 `$ sudo chmod -R 777 project-name`
-#### step 2
+#### step 2 - Rename the .env.example to .env
 `$ create a .env file and paste your env variables`
-#### step 3 
+#### step 3 - Go in your project 
 `$ cd project-name`
-#### step 4 
+#### step 4 - Run the composer to install packages
 `$ docker run --rm -v $(pwd):/app composer install`
-#### step 5 
+#### step 5
 `$ docker-compose up`
 #### step 6 
-
 - `$ inside larvel.test-1 open the terminal inside docker`
 - `composer install`
 - `npm install`
